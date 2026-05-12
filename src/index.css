@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color: #18202f;
+  background: #f7f8fb;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+}
+
+a,
+button,
+input,
+textarea,
+select {
+  outline-color: #135e6f;
+}
+
+:focus-visible {
+  outline: 3px solid rgba(19, 94, 111, 0.55);
+  outline-offset: 2px;
+}
